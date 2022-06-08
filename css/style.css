@@ -14,7 +14,7 @@ a{
 
 /*HEADER&NAV*/
 .header {
-    background-image: url("/images/Rectangle 12 1.jpg");
+    background-image: url("../images/Rectangle 12 1.jpg");
     background-size: cover;
     height: 70vh;
 }
