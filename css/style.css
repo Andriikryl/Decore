@@ -90,7 +90,6 @@ header .container{
 
 }
 .header__button{
-    max-width: 143px;
     background: linear-gradient(90deg, #4C6071 0%, #55BDEA 100%);
     border-radius: 10px;
     font-weight: 500;
@@ -235,8 +234,7 @@ max-width: 1220px;
 	padding: 20px 46px;
 	display: block;
 	margin: auto;
-	max-width: 255px;
-	box-sizing: border-box;
+	
 }
 
 /* content&section */
