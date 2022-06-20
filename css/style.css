@@ -403,8 +403,9 @@ padding-bottom: 150px;
 
 .btm__play {
 	position: absolute;
-	top: 60px;
-	right: 50px;
+	top: 69px;
+    width: 81.25px;
+    height: 140px;
 }
 
 .section__content .inner__sect h5 {
@@ -431,6 +432,33 @@ padding-bottom: 150px;
 	display: flex;
 	justify-content: space-between;
 }
+
+.owl-nav .owl-prev::before{
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content: "\f053";
+    font-size: 30px;
+    color: white;
+    position: relative;
+    left: -50px;
+}
+.owl-nav .owl-next::before{
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content: "\f054";
+    font-size: 30px;
+    color: white;
+}
+.owl-nav{
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    top: -25%;
+    right: 125px;
+}
+
+
 /* section__content */
 
 
